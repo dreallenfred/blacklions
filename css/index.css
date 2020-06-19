@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 .brandstyle {
-    font-family: 'Copperplate';
+    font-family: 'Copperplate Gothic Light';
 }
 .bg-black {
     background-color: black;
@@ -20,14 +20,15 @@ body, html {
 }
 
 .section1 {
-    /* background-image: url('../images/background4.jpeg'); */
-    /* height: 800px; */
-    min-width: 25%;
-    height: 10%;
-    /* background-attachment: fixed;
+    background-image: url('../images/background4.jpeg');
+    height: 800px;
+    width: 100%;
+    /* min-width: 25%; */
+    /* height: 10%; */
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
 }
 
 #container .left,
@@ -45,11 +46,11 @@ body, html {
 }
 
 .section2 {
-    /* background-color: ivory; */
-    height: 800px;
+    background-color: ivory;
+    height: 900px;
     width: 100%;
     /* display: flex; */
-    /* align-items: center; */
+    align-items: center;
     padding: 14px;
     justify-content: center;
     text-align: center;
@@ -63,7 +64,7 @@ body, html {
 }
 
 h1 {
-    font-family: 'Copperplate';
+    font-family: 'Copperplate Gothic Light';
     font-size: 75px;
     color: ivory;
     text-align: center !important;
@@ -90,10 +91,3 @@ a.nav-link:hover {
     padding: 20px;
     display: flex;
 }
-
-/* div.right {
-    background-image: url('../images/background3.jpeg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */

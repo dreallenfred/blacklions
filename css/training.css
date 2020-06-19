@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    
+    
+}
+
+h2 {
+    color: black;
+    font-family: 'Copperplate Gothic Light' !important;
+    /* display: inline-block; */
+    text-align: center !important;
+}
+
+/* .parallax {
+    
+} */
