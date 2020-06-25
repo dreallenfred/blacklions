@@ -47,7 +47,7 @@ body, html {
 
 .section2 {
     background-color: ivory;
-    height: 900px;
+    height: 1200px;
     width: 100%;
     /* display: flex; */
     align-items: center;
@@ -91,3 +91,15 @@ a.nav-link:hover {
     padding: 20px;
     display: flex;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
