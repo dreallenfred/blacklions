@@ -20,11 +20,9 @@ body, html {
 }
 
 .section1 {
-    background-image: url('../images/background4.jpeg');
-    height: 800px;
+    background-image: url('../images/header.png');
+    height: 250px;
     width: 100%;
-    /* min-width: 25%; */
-    /* height: 10%; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,14 +57,17 @@ body, html {
 .section3 {
     background-color: black;
     color: white;
-    height: 100px;
+    height: 3.5rem;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 h1 {
     font-family: 'Copperplate Gothic Light';
-    font-size: 75px;
-    color: ivory;
+    font-size: 45px;
+    color: white;
+    padding-top: 100px;
     text-align: center !important;
     /* justify-content: center;
     align-items: center; */
