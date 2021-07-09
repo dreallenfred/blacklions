@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+}
+.brandstyle {
+    font-family: 'Copperplate Gothic Light';
+}
+.bg-black {
+    background-color: black;
+}
+
+
+.parallax {
+    /* background-image: url("../images/blacklions.PNG"); */
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center;
+    /* background-color: darkolivegreen; */
+    min-height: 1200px;
+}
+
+.section1 {
+    background-image: url('../images/header.png');
+    height: 250px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .left,
+#container .right {
+    display: inline-block;
+}
+
+#container .left {
+    width: 20%;
+    float: left;
+}
+#container .right {
+    width: 80%;
+    float: right;
+}
+
+.section2 {
+    background-color: ivory;
+    height: 1200px;
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    padding: 14px;
+    justify-content: center;
+    text-align: center;
+}
+
+.section3 {
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+h1 {
+    font-family: 'Copperplate Gothic Light';
+    font-size: 45px;
+    color: white;
+    padding-top: 100px;
+    text-align: center !important;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+a.nav-link:hover {
+    color: tan !important;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
